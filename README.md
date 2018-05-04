@@ -1,6 +1,7 @@
 # Simple Students Web API With ASP.NET Core 2
 ## Description:
-This is very simple web api that
+Students web api is very simple application that has basic functions.
+This service will be consumed by * RestSharp * and HttpClient in C#: 
 
 ### Roadmap for Selenium UI Test Automation Series:
 1> Selenium_UI_Automation Without POM - Manily Focus on Selenium API Functionalities  
