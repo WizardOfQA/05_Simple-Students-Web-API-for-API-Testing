@@ -1,0 +1,10 @@
+c:\users\wizar\source\repos\Student_WebAPI\Student_WebAPI\bin\Debug\netcoreapp2.0\Student_WebAPI.deps.json
+c:\users\wizar\source\repos\Student_WebAPI\Student_WebAPI\bin\Debug\netcoreapp2.0\Student_WebAPI.runtimeconfig.json
+c:\users\wizar\source\repos\Student_WebAPI\Student_WebAPI\bin\Debug\netcoreapp2.0\Student_WebAPI.runtimeconfig.dev.json
+c:\users\wizar\source\repos\Student_WebAPI\Student_WebAPI\bin\Debug\netcoreapp2.0\Student_WebAPI.dll
+c:\users\wizar\source\repos\Student_WebAPI\Student_WebAPI\bin\Debug\netcoreapp2.0\Student_WebAPI.pdb
+c:\users\wizar\source\repos\Student_WebAPI\Student_WebAPI\obj\Debug\netcoreapp2.0\Student_WebAPI.csproj.CoreCompileInputs.cache
+c:\users\wizar\source\repos\Student_WebAPI\Student_WebAPI\obj\Debug\netcoreapp2.0\Student_WebAPI.AssemblyInfoInputs.cache
+c:\users\wizar\source\repos\Student_WebAPI\Student_WebAPI\obj\Debug\netcoreapp2.0\Student_WebAPI.AssemblyInfo.cs
+c:\users\wizar\source\repos\Student_WebAPI\Student_WebAPI\obj\Debug\netcoreapp2.0\Student_WebAPI.dll
+c:\users\wizar\source\repos\Student_WebAPI\Student_WebAPI\obj\Debug\netcoreapp2.0\Student_WebAPI.pdb
