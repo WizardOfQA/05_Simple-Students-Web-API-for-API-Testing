@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Student_WebAPI.Data;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace Student_WebAPI
 {
@@ -27,7 +28,8 @@ namespace Student_WebAPI
         {
             services.AddMvc();
             services.AddDbContext<StudentsDbContext>(option 
-                => option.UseSqlServer(@"Server=yourServer;Database=StudentDb;Integrated Security=True; Trusted_Connection=True"));
+                => option.UseSqlServer(@"Server=DESKTOP-7OMR3N3;Database=StudentDb;Integrated Security=True; Trusted_Connection=True"));
+            services.AddSwaggerGen(c => c.SwaggerDoc("v1", new Info() { Title = "Students Api", Version = "v1" }));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -38,6 +40,8 @@ namespace Student_WebAPI
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseSwagger();
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Api for Students"));
             app.UseMvc();
             // if db doesn't exist, create one
             studentsDbContext.Database.EnsureCreated();
