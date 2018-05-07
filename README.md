@@ -2,8 +2,8 @@
 ## Description:
 Students web api is very simple application that has basic functions.
 This service will be consumed by 
-### 1> RestSharp 
-### 2> HttpClient in C#
+### 1. RestSharp 
+### 2. HttpClient in C#
 
 ## How to run it
 1. Download Students api, update your server name in StartUp.cs file. 
