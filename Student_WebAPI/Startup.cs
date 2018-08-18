@@ -28,7 +28,7 @@ namespace Student_WebAPI
         {
             services.AddMvc();
             services.AddDbContext<StudentsDbContext>(option 
-                => option.UseSqlServer(@"Server=yourSever;Database=StudentDb;Integrated Security=True; Trusted_Connection=True"));
+                => option.UseSqlServer(@"Server=.;Database=StudentDb;Integrated Security=True; Trusted_Connection=True"));
             services.AddSwaggerGen(c => c.SwaggerDoc("v1", new Info() { Title = "Students Api", Version = "v1" }));
         }
 
